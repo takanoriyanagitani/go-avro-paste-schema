@@ -1,0 +1,13 @@
+{
+	"type":"record",
+	"name":"sample_rec1",
+	"fields":[
+	  {"name":"neo_name", "type":"string"},
+	  {"name":"neo_data", "type":"bytes"},
+	  {"name":"neo_height", "type":"int"},
+	  {"name":"neo_id", "type":"long"},
+	  {"name":"active", "type":"boolean"},
+	  {"name":"unixtime", "type":"double"},
+	  {"name":"unixtime_us", "type":"long"}
+	]
+}

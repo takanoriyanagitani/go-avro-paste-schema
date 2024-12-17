@@ -1,0 +1,13 @@
+{
+	"type":"record",
+	"name":"sample_rec1",
+	"fields":[
+	  {"name":"name", "type":"string"},
+	  {"name":"data", "type":"bytes"},
+	  {"name":"height", "type":"int"},
+	  {"name":"id", "type":"long"},
+	  {"name":"active", "type":"boolean"},
+	  {"name":"unixtime", "type":"double"},
+	  {"name":"unixtime_us", "type":"long"}
+	]
+}
